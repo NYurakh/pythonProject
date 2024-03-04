@@ -76,13 +76,15 @@ score = float(input("Enter your score: "))
 if score >= 90:
     grade = 5
 elif score >= 80:
-    grade = 4
+    grade = 4.5
 elif score >= 70:
-    grade = 3
+    grade = 4
 elif score >= 60:
-    grade = 2
+    grade = 3.5
+elif score >= 50:
+    grade = 3
 else:
-    grade = 1
+    grade = 2
 
 # Print the grade
 print("Your grade is:", grade)
