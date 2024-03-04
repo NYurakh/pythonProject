@@ -16,6 +16,7 @@ name = input("Enter your name: ")
 print("Hello,", name + "!")
 
 
+
 """Exercise 1. <br />
 Ask 3 questions about the name, surname and age, and at the end create a sentence with this information.
 """
